@@ -14,9 +14,7 @@ sudo apt install python3-pip ros-$ROS_DISTRO-vision-msgs
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple yolov5
 ```
 
-## 0.2 下载编译和运行
-
-下载开源库
+## 0.2 clone repository
 
 ```bash
 mkdir -p yolov5_ws/src
@@ -97,5 +95,5 @@ position:                 # 3D position after TF transformation
 
 bag_to_yolo_images.py
 
-input : rosbag topic
+input : rosbag topic / 
 output : dataset_raw 
