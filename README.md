@@ -41,9 +41,9 @@ yolov5_ws/
 ## 2. Parameter Configuration & Camera Selection
 
 The main launch file is:
-
+```bash
 yolov5_ros2_launch.py
-
+```
 
 In this file, you can configure:
 
