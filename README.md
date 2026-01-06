@@ -24,8 +24,10 @@ git clone https://github.com/fishros/yolov5_ros2.git
 
 ## 1. Model & File Configuration
 YOLOv5 Weights:
+
 best.pt
- Trained YOLOv5 model weights must be placed under the config/ directory
+
+Trained YOLOv5 model weights must be placed under the config/ directory
 
 Example structure:
 ```bash
