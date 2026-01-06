@@ -79,11 +79,17 @@ Detection results are published on the following topic:
 Message Overview (only key info):
 
 frame_id: spot/body        # reference coordinate frame
+
 class_id: ball             # detected object class
+
 score: 0.8171692490577698  # detection confidence
+
 position:                 # 3D position after TF transformation
+
   x: -1.1204
+  
   y: -0.4977
+  
   z: -0.5264
 
 
@@ -94,5 +100,6 @@ position:                 # 3D position after TF transformation
 
 bag_to_yolo_images.py
 
-input : rosbag topic / 
+input : rosbag topic 
+
 output : dataset_raw 
