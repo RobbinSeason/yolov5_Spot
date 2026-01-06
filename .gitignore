@@ -1,3 +1,11 @@
+# ROS / colcon
 build/
 install/
 log/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+dataset_raw/

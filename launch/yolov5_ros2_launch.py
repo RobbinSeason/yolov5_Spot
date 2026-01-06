@@ -38,7 +38,7 @@ def generate_launch_description():
                 'camera_info_topic': '/spot/depth/frontleft/camera_info',  #改成spot深度相机内参
 
                 'show_result': False,  #连接spot时候可以关掉
-                'pub_result_img': True,
+                'pub_result_img': False,
             }],
         ),
 
