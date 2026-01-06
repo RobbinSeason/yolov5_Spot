@@ -23,13 +23,17 @@ git clone https://github.com/RobbinSeason/yolov5_Spot
 ```
 
 ## 1. Model & File Configuration
+
 YOLOv5 Weights:
 
+```bash
 best.pt
+```
 
 Trained YOLOv5 model weights must be placed under the config/ directory
 
 Example structure:
+
 ```bash
 yolov5_ws/
 └── src/
@@ -41,6 +45,7 @@ yolov5_ws/
 ## 2. Parameter Configuration & Camera Selection
 
 The main launch file is:
+
 ```bash
 yolov5_ros2_launch.py
 ```
@@ -52,6 +57,12 @@ In this file, you can configure:
 2.Camera Topics
 
 Make sure the selected topics match the actual robot camera configuration.
+
+The main function file is:
+
+```bash
+yolo_detect_2d.py
+```
 
 ## 3. Build & Launch
 
