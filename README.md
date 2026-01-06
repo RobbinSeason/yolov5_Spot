@@ -14,7 +14,7 @@ sudo apt install python3-pip ros-$ROS_DISTRO-vision-msgs
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple yolov5
 ```
 
-## 0.2 clone repository
+## 0.2 Clone repository
 
 ```bash
 mkdir -p yolov5_ws/src
