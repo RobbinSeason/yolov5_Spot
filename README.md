@@ -23,21 +23,18 @@ git clone https://github.com/fishros/yolov5_ros2.git
 ```
 
 ## 1. Model & File Configuration
-YOLOv5 Weights
-
-    best.pt
-
-        Trained YOLOv5 model weights
-
-        Must be placed under the config/ directory
+YOLOv5 Weights:
+best.pt
+ Trained YOLOv5 model weights must be placed under the config/ directory
 
 Example structure:
-
+```bash
 yolov5_ws/
 └── src/
     └── yolov5_ros2/
         └── config/
             └── best.pt
+```
 
 ## 2. Parameter Configuration & Camera Selection
 
