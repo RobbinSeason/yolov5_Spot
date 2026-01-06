@@ -19,7 +19,7 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple yolov5
 ```bash
 mkdir -p yolov5_ws/src
 cd yolov5_ws/src
-git clone https://github.com/fishros/yolov5_ros2.git
+git clone https://github.com/RobbinSeason/yolov5_Spot
 ```
 
 ## 1. Model & File Configuration
